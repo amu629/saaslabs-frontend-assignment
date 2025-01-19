@@ -2,10 +2,6 @@
   "files": [
     "vite-env.d.ts"
   ],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ],
   "compilerOptions": {
     "module": "es2022",
     "target": "es2022",

@@ -1,7 +1,7 @@
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import App from './App';
 import '@testing-library/jest-dom';
-import React from 'react';
+import React from 'react'
 
 global.fetch = jest.fn().mockResolvedValue({
   json: jest.fn().mockResolvedValue([
