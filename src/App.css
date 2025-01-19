@@ -1,0 +1,114 @@
+.table-container {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.tableItems {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableItems.dark th, .tableItems.dark td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.tableItems.light th, .tableItems.light td {
+  border: 1px solid #1b1a1b;
+  padding: 8px;
+}
+
+.tableItems.dark th {
+  text-align: left;
+  background-color: #1b1a1b;
+}
+
+.tableItems.light th {
+  text-align: left;
+  background-color: #ccc;
+}
+
+.tableItems.dark tr:nth-child(even) {
+  background-color: #1b1a1b;
+}
+
+.tableItems.dark tr:hover {
+  background-color: #1b1a1b;
+}
+
+.tableItems.light tr:nth-child(even) {
+  background-color: #ccc;
+}
+
+.tableItems.light tr:hover {
+  background-color: #ccc;
+}
+
+.pagination {
+  border-radius: 10px; 
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+.pagination.dark {
+  border: 1px solid #ccc;
+}
+
+.pagination.light {
+  border: 1px solid #1b1a1b;
+}
+
+.pagination button {
+  background-color: #1b1a1b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+.pagination.dark button {
+  background-color: #1b1a1b;
+  color: white;
+}
+
+.pagination.light button {
+  background-color: #ccc;
+  color: black;
+}
+
+.pagination.dark button:disabled {
+  background-color: #333;
+  cursor: auto;
+}
+
+.pagination.light button:disabled {
+  background-color: #ddd;
+  cursor: auto;
+}
+
+.pageNumber.dark.active {
+  border: 1px solid #ccc;
+  color: red;
+}
+
+.pageNumber.light.active {
+  border: 1px solid #1b1a1b;
+  color: red;
+}
+
+.pagination button:not([disabled]):hover {
+  background-color: antiquewhite;
+  color: #000;
+}
+
+.pagination .ellipsis {
+  padding: 5px 12px;
+}
+
+
